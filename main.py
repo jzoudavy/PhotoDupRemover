@@ -32,7 +32,7 @@ def compareImage(image_path1, image_path2):
         err = np.sum(diff ** 2)
         mse = err / (float(h * w))
 
-        print("Image matching Error between the two images:", mse)
+        print("Image matching Error between the two images:", mse)index1
         print("image 1:", image_path1)
         print("image 2:", image_path2)
     else:
@@ -69,6 +69,7 @@ def main():
 
 '''
 possible ways to speed this thing up
+single thread i think takes 4s
 1. multithread it
 1a: one for loop per thread execution time of 0.38s for 4 pics
 1b: two for loop per thread execution time is 0.02s for 4 pics
