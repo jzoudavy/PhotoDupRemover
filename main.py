@@ -75,6 +75,7 @@ single thread i think takes 4s
 1b: two for loop per thread execution time is 0.02s for 4 pics
 2. make it use the gpu
 3. run it on nvidia jetson nano, but network latency? connect nano to switch maybe?
+3a: maybe move all the pics to the jetson nano, then do the compare and delete, then put them back?
 4. 
 '''
 if __name__ == '__main__':
